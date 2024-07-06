@@ -52,7 +52,7 @@ i {
 
 .gh_photo {
   width: 176px;
-  border-radius: 15px;
+  border-radius: 50%;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
