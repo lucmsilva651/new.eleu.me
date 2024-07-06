@@ -22,6 +22,10 @@ a:focus {
   text-decoration: none;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
 i {
   font-size: 28px;
   color: var(--index-text-color);
@@ -51,7 +55,7 @@ i {
 }
 
 .gh_photo {
-  width: 176px;
+  width: 201px;
   border-radius: 50%;
   user-select: none;
   -moz-user-select: none;
@@ -68,12 +72,22 @@ i {
   padding-right: 20px;
   text-align: center;
   width: 350px;
-  height: 166px;
+  height: fit-content; /* declaring 10px smaller than the photo */
   background-color: var(--block-bg-color);
 }
 
-.block_container p {
+.whoami {
   margin-top: -10px;
+  margin-bottom: 14px;
+}
+
+.pix_btn {
+  font-size: smaller;
+}
+
+.pix_btn:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .nf_block_container {
@@ -86,11 +100,6 @@ i {
   width: 350px;
   height: fit-content;
   background-color: var(--block-bg-color);
-}
-
-.nf_block_container i {
-  font-size: 45px;
-  padding-right: 10px;
 }
 
 .nf_heading_block {
