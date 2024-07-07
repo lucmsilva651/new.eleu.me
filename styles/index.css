@@ -83,6 +83,11 @@ i {
 
 .pix_btn {
   font-size: smaller;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .pix_btn:hover {

@@ -15,16 +15,16 @@
   <!-- i18n: check /locales -->
   <div class="header">
     <ul class="header_list">
-      <li><b><a data-i18n="lucmsilva" href="/"></a></b></li>
-      <li><a data-i18n="about_me" href="https://bio.eleu.me" target="_blank" rel="noopener noreferrer"></a></li>
-      <li><a data-i18n="my_blog" href="https://blog.eleu.me" target="_blank" rel="noopener noreferrer"></a></li>
+      <li><b><a i18n="lucmsilva" href="/"></a></b></li>
+      <li><a i18n="about_me" href="https://bio.eleu.me" target="_blank" rel="noopener noreferrer"></a></li>
+      <li><a i18n="my_blog" href="https://blog.eleu.me" target="_blank" rel="noopener noreferrer"></a></li>
     </ul>
   </div>
   <div class="main_container">
     <img class="gh_photo" src="https://avatars.githubusercontent.com/u/90426410">
     <div class="block_container">
-      <h1 data-i18n="welcome"></h1>
-      <p class="whoami" data-i18n="who_am_i"></p>
+      <h1 i18n="welcome"></h1>
+      <p class="whoami" i18n="who_am_i"></p>
       <div class="sns_container">
         <a href="https://github.com/lucmsilva651" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github"></i></a>
         <a href="https://youtube.com/lucmsilva651" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-youtube"></i></a>
@@ -34,14 +34,10 @@
         <a href="https://instagram.com/lucasgabm95" title="instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
       </div>
       <!-- only loads if the page is in pt -->
-      <div id="pix_text">
-        <p class="pix_btn" id="pix" data-i18n="pix" onclick="copyToClipboard()"></p>
-        <script src="plugins/pix_clipboard.js"></script>
-      </div>
+      <p class="pix_btn" id="pix" i18n="pix"></p>
     </div>
   </div>
 
-  <script src="plugins/region_check.js"></script>
-  <script src="plugins/i18n.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 </html>
